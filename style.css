@@ -1,0 +1,32 @@
+.content {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.row {
+    margin-top: 10px;
+}
+
+.input-pad {
+    padding: 0.25em;
+}
+
+.content form {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .content form {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+form {
+    background-color: #f8f8f8;
+}
+
+input[type=url] {
+    width: 100%;
+}
